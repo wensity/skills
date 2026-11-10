@@ -1,6 +1,6 @@
 # Wensity Design Skills
 
-Free agent skills that make AI coding agents better at interface design:
+Free Claude Code skills that make AI coding agents better at interface design:
 typography, layout and spacing, and UX writing. Each one is a folder
 with a `SKILL.md` in the open Agent Skills format, so it works in
 Claude Code, Codex, Cursor, GitHub Copilot, Windsurf, Gemini CLI and OpenCode.
