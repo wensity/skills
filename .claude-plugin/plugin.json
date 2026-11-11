@@ -10,6 +10,10 @@
   "homepage": "https://ui.wensity.com/skills",
   "repository": "https://github.com/wensity/skills",
   "license": "MIT",
+  "documentationUrl": "https://ui.wensity.com/docs/skills",
+  "supportUrl": "https://github.com/wensity/skills/issues",
+  "privacyPolicyUrl": "https://ui.wensity.com/privacy-policy",
+  "termsOfServiceUrl": "https://ui.wensity.com/terms-of-service",
   "keywords": [
     "design",
     "ui",
