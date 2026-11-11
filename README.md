@@ -5,7 +5,7 @@ typography, layout and spacing, and UX writing. Each one is a folder
 with a `SKILL.md` in the open Agent Skills format, so it works in
 Claude Code, Codex, Cursor, GitHub Copilot, Windsurf, Gemini CLI and OpenCode.
 
-[Wensity UI](https://ui.wensity.com) · [Free React components](https://github.com/wensity/registry) · [wensity.com](https://wensity.com)
+[Skills guide](https://ui.wensity.com/skills) · [Wensity UI](https://ui.wensity.com) · [Free React components](https://github.com/wensity/registry) · [wensity.com](https://wensity.com)
 
 | Skill | Name | What it covers |
 | --- | --- | --- |
@@ -27,6 +27,16 @@ Just one:
 
 ```bash
 npx skills add wensity/skills --skill wensity-typography
+```
+
+### With the Wensity CLI
+
+No account is needed for these skills. The CLI finds the agents your project
+uses, records what it installed, and never overwrites a file you edited:
+
+```bash
+npx wensity@latest skills add typography layout ui-copy
+npx wensity@latest skills update
 ```
 
 ### By hand
@@ -52,7 +62,7 @@ keep a design system you already have.
 
 ### Typography
 
-`wensity-typography` · [SKILL.md](skills/wensity-typography/SKILL.md)
+`wensity-typography` · [SKILL.md](skills/wensity-typography/SKILL.md) · [Guide](https://ui.wensity.com/skills/typography)
 
 A free typography skill that teaches your AI coding agent, from Claude Code to Cursor, to set type with a system: named text roles, clear size steps, line height, measure and fonts that load without a jump.
 
@@ -73,7 +83,7 @@ A free typography skill that teaches your AI coding agent, from Claude Code to C
 
 ### Layout and spacing
 
-`wensity-layout` · [SKILL.md](skills/wensity-layout/SKILL.md)
+`wensity-layout` · [SKILL.md](skills/wensity-layout/SKILL.md) · [Guide](https://ui.wensity.com/skills/layout)
 
 A free skill that teaches Claude Code, Codex, Cursor and other AI coding agents to space and align UI on purpose: a 4px spacing scale, grouping by distance, grids and layouts that hold from a 320px phone to a wide desktop.
 
@@ -94,7 +104,7 @@ A free skill that teaches Claude Code, Codex, Cursor and other AI coding agents 
 
 ### UX writing
 
-`wensity-ui-copy` · [SKILL.md](skills/wensity-ui-copy/SKILL.md)
+`wensity-ui-copy` · [SKILL.md](skills/wensity-ui-copy/SKILL.md) · [Guide](https://ui.wensity.com/skills/ux-writing)
 
 A free UX writing skill for your AI coding agent: headings, buttons, error messages, empty states and sample content, written plainly in Claude Code, Codex or Cursor so they do not sound generated.
 
@@ -112,6 +122,12 @@ A free UX writing skill for your AI coding agent: headings, buttons, error messa
 - "The copy on this landing page sounds like an AI wrote it. Rewrite it."
 - "Write better error messages for the sign-up form."
 - "Fill this new dashboard with realistic sample data."
+
+## More skills
+
+The full Wensity Design Skills pack adds 10 more: design director, motion and animation, color and dark mode, surfaces and depth, accessibility and UI states, landing page, dashboard and app UI, UI review and polish, DESIGN.md generator, and wensity components.
+They come with [Wensity Pro](https://ui.wensity.com/pricing). See them all at
+[ui.wensity.com/skills](https://ui.wensity.com/skills).
 
 ## Contributing
 
