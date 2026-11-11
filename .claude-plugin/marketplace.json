@@ -1,0 +1,34 @@
+{
+  "name": "wensity",
+  "description": "Wensity Design Skills: free skills that make AI coding agents better at interface design.",
+  "owner": {
+    "name": "Wensity",
+    "url": "https://ui.wensity.com"
+  },
+  "plugins": [
+    {
+      "name": "design-skills",
+      "displayName": "Wensity Design Skills",
+      "source": "./",
+      "description": "Free design skills for Claude Code: typography, layout and spacing, and UX writing.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Wensity",
+        "url": "https://ui.wensity.com"
+      },
+      "homepage": "https://ui.wensity.com/skills",
+      "repository": "https://github.com/wensity/skills",
+      "license": "MIT",
+      "keywords": [
+        "design",
+        "ui",
+        "ux",
+        "frontend",
+        "react",
+        "tailwindcss",
+        "agent-skills"
+      ],
+      "category": "design"
+    }
+  ]
+}
