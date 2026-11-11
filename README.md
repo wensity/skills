@@ -59,7 +59,7 @@ Restart the agent, or start a new session, after installing.
 
 ```text
 /plugin marketplace add wensity/skills
-/plugin install design-skills@wensity
+/plugin install wensity-design-skills@wensity
 ```
 
 ## How agents use them

@@ -7,28 +7,13 @@
   },
   "plugins": [
     {
-      "name": "design-skills",
-      "displayName": "Wensity Design Skills",
+      "name": "wensity-design-skills",
       "source": "./",
-      "description": "Free design skills for Claude Code: typography, layout and spacing, and UX writing.",
-      "version": "0.3.0",
-      "author": {
-        "name": "Wensity",
-        "url": "https://ui.wensity.com"
-      },
-      "homepage": "https://ui.wensity.com/skills",
-      "repository": "https://github.com/wensity/skills",
-      "license": "MIT",
-      "keywords": [
-        "design",
-        "ui",
-        "ux",
-        "frontend",
-        "react",
-        "tailwindcss",
-        "agent-skills"
-      ],
+      "description": "Free design skills for Claude Code: typography, layout and spacing, and UX writing. They teach Claude to set type with a system, space and align UI on a 4px scale, and write interface copy that does not sound generated.",
       "category": "design"
     }
-  ]
+  ],
+  "renames": {
+    "design-skills": "wensity-design-skills"
+  }
 }
